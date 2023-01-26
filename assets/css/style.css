@@ -54,8 +54,8 @@ Nav Bar
 /******************************************************************************************************************************
 Slider
 ************************************************************************************************************************/
-#slider{
-    width: 100%;
+#slider {
+  width: 100%;
 }
 
 .slogan {
@@ -64,7 +64,7 @@ Slider
   display: flex;
   justify-content: center;
   align-items: center;
-  background-size:cover;
+  background-size: cover;
   text-align: center;
   width: 100%;
 }
@@ -91,11 +91,56 @@ Why Us
 */
 
 .featured-grid {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    width: 80%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px
 }
 
-.why-us-img{
-    height: 500px;
+.featured-grid .features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.why-us-img {
+  width: 100%;
+}
+
+.sub-heading {
+  font-size: 16px;
+  font-family: sans-serif;
+  display: inline;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.why-us-list{
+    margin-top: 10px;
+}
+
+.why-us-list li{
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 5px;
+}
+
+
+
+.featured-grid .features .about-us-note{
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0 10px;
+}
+
+
+.services-grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px
+  }
