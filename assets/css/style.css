@@ -32,10 +32,6 @@ Nav Bar
   letter-spacing: 1px;
 }
 
-.menu a:hover {
-    font-weight: bold;
-}
-
 #orderBtn {
   background-color: rgb(84, 1, 161);
   font-size: 10px;
