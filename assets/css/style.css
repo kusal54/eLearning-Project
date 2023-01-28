@@ -60,7 +60,7 @@ Slider
 }
 
 .slogan {
-  background-image: url("/assets/img/slider1.jpg");
+  background-image: url(/assets/img/slider1.jpg);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -86,6 +86,7 @@ Slider
 Why Us
 ************************************************************************************************************************/
 .why-us-section {
+  width: 100%;
   margin-top: 30px;
 }
 
@@ -115,6 +116,9 @@ Why Us
   text-transform: uppercase;
   margin-bottom: 20px;
   text-align: center;
+  color: #000428;
+  border: 1px solid #000428;
+  padding: 10px 20px;
 }
 
 .why-us-list {
@@ -133,13 +137,14 @@ About Us
 
 .about-us-section {
   margin-top: 30px;
+  width: 100%;
 }
 .featured-grid .features .about-us-note {
   font-size: 14px;
   font-family: sans-serif;
   text-align: center;
   padding: 0 10px;
-  text-align: justify;
+  text-align: center;
 }
 
 /******************************************************************************************************************************
@@ -149,6 +154,12 @@ Services
 .service-section {
   text-align: center;
   margin-bottom: 50px;
+  width: 100%;
+}
+
+.service-title {
+  margin: auto;
+  padding: 10px 100px;
 }
 
 .services-grid {
@@ -179,22 +190,20 @@ Contacts
 ************************************************************************************************************************/
 
 .contact-section {
+  width: 100%;
   background-color: #000428;
 }
 
-.contact-wrapper {
-  margin: auto;
-  margin-top: 20px;
-
-}
-
 .contact-title {
+  width: 30%;
+  margin: auto;
   color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #000428;
   padding: 30px;
+  border-bottom: 2px solid #ffffff;
 }
 
 .contact-msg {
@@ -290,23 +299,21 @@ Social Media
 .social-icon {
   font-size: 30px;
   color: #ffffff;
+  margin: auto;
 }
 
 .social-label {
   font-family: sans-serif;
-  display: flex;
   font-size: 12px;
   padding: 10px;
   color: #ffffff;
 }
 
 
-
-
 /******************************************************************************************************************************
 Social Media
 ************************************************************************************************************************/
-.footer-wrapper{
+.footer-wrapper {
   height: 30px;
   background-color: #000213e0;
   width: 100%;
@@ -315,9 +322,83 @@ Social Media
   align-items: center;
 }
 
-.footer{
+.footer {
   color: #ffffff;
   font-size: 12px;
   font-family: sans-serif;
   text-transform: capitalize;
+}
+
+/******************************************************************************************************************************
+Responsive Part
+************************************************************************************************************************/
+
+@media (max-width: 900px) {
+  #desktopNavBar {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 100%;
+    width: 100%;
+    display: block;
+  }
+
+  .service-label{
+    margin-bottom: 20px;
+  }
+
+  .sub-heading{
+    font-size: 14px;
+  }
+
+  .slogan {
+    height: 50vh;
+}
+
+.slogan h1 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 25vh;
+}
+
+.featured-grid {
+  grid-template-columns: 100%;
+  width: 80%;
+}
+
+.contact-details {
+  font-family: sans-serif;
+  font-size: 11px;
+  color: #ffffff;
+}
+
+.contact-req {
+  font-size: 12px;
+}
+
+.mail-section {
+  width: 50%;
+}
+
+.inputs {
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.mail-section .msg-enter {
+  height: 80px;
+}
+
+#submit-button {
+  padding: 8px;
+  margin-top: 8px;
+  width: 80%;
+}
+
+.service-title {
+  padding: 10px 50px;
+}
 }
