@@ -148,6 +148,7 @@ Services
 
 .service-section {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .services-grid {
@@ -178,13 +179,10 @@ Contacts
 ************************************************************************************************************************/
 
 .contact-section {
-  margin-top: 50px;
   background-color: #000428;
-  height: 95vh;
 }
 
 .contact-wrapper {
-  width: 80%;
   margin: auto;
   margin-top: 20px;
 
@@ -192,7 +190,11 @@ Contacts
 
 .contact-title {
   color: #ffffff;
-  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000428;
+  padding: 30px;
 }
 
 .contact-msg {
@@ -217,7 +219,10 @@ Contacts
 }
 
 .contact-grid .features {
+  display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   color: #ffffff;
 }
 
@@ -271,7 +276,7 @@ Social Media
 .social-media-section {
   width: 100%;
   margin-top: 50px;
-  margin-bottom: 20px;
+  height: 160px;
 }
 
 .social-wrapper {
