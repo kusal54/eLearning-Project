@@ -60,7 +60,7 @@ Slider
 }
 
 .slogan {
-  background-image: url(/assets/img/slider1.jpg);
+  background-image: url("assets/img/slider1.jpg");
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -85,7 +85,7 @@ Slider
 /******************************************************************************************************************************
 Why Us
 ************************************************************************************************************************/
-.why-us-section {
+.why-us-section-pc {
   width: 100%;
   margin-top: 30px;
 }
@@ -122,7 +122,7 @@ Why Us
 }
 
 .why-us-list {
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 .why-us-list li {
@@ -135,10 +135,15 @@ Why Us
 About Us
 ************************************************************************************************************************/
 
-.about-us-section {
+.about-us-section-pc {
   margin-top: 30px;
   width: 100%;
 }
+
+.about-us-section-mobile {
+  display: none;
+}
+
 .featured-grid .features .about-us-note {
   font-size: 14px;
   font-family: sans-serif;
@@ -309,7 +314,6 @@ Social Media
   color: #ffffff;
 }
 
-
 /******************************************************************************************************************************
 Social Media
 ************************************************************************************************************************/
@@ -337,6 +341,15 @@ Responsive Part
   #desktopNavBar {
     display: none;
   }
+  .slogan {
+    height: 50vh;
+  }
+
+  .slogan h1 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 25vh;
+  }
 }
 
 @media (max-width: 768px) {
@@ -346,59 +359,107 @@ Responsive Part
     display: block;
   }
 
-  .service-label{
+  .service-label {
     margin-bottom: 20px;
   }
 
-  .sub-heading{
+  .sub-heading {
     font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 30px;
   }
 
-  .slogan {
-    height: 50vh;
-}
+  .featured-grid {
+    grid-template-columns: 100%;
+    width: 80%;
+  }
 
-.slogan h1 {
-  font-size: 15px;
-  font-weight: bold;
-  margin-top: 25vh;
-}
+  .contact-details {
+    font-family: sans-serif;
+    font-size: 11px;
+    color: #ffffff;
+  }
 
-.featured-grid {
-  grid-template-columns: 100%;
-  width: 80%;
-}
+  .contact-req {
+    font-size: 12px;
+  }
 
-.contact-details {
-  font-family: sans-serif;
-  font-size: 11px;
-  color: #ffffff;
-}
+  .mail-section {
+    width: 50%;
+  }
 
-.contact-req {
-  font-size: 12px;
-}
+  .inputs {
+    padding: 8px;
+    margin-bottom: 8px;
+  }
 
-.mail-section {
-  width: 50%;
-}
+  .mail-section .msg-enter {
+    height: 80px;
+  }
 
-.inputs {
-  padding: 8px;
-  margin-bottom: 8px;
-}
+  #submit-button {
+    padding: 8px;
+    margin-top: 8px;
+    width: 80%;
+  }
 
-.mail-section .msg-enter {
-  height: 80px;
-}
+  .service-title {
+    padding: 10px 50px;
+  }
 
-#submit-button {
-  padding: 8px;
-  margin-top: 8px;
-  width: 80%;
-}
+  .about-us-section-mobile {
+    display: block;
+  }
 
-.service-title {
-  padding: 10px 50px;
-}
+  .about-us-section-pc {
+    display: none;
+  }
+
+  .why-us-section-mobile {
+    display: block;
+  }
+
+  .why-us-section-pc {
+    display: none;
+  }
+
+  .why-us-img {
+    width: 100%;
+  }
+
+  .why-us-list {
+    font-size: 10px;
+  }
+
+  .about-us-img {
+    width: 80%;
+  }
+
+  .about-us-note {
+    font-size: 10px;
+    margin-top: -25px;
+    margin-bottom: 60px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 100%;
+  }
+
+  .contact-req {
+    max-width: 80%;
+  }
+
+  .icon-img {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  .contact-msg {
+    font-size: 12px;
+    padding: 0;
+  }
+
+  .footer {
+    font-size: 10px;
+  }
 }
