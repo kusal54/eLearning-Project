@@ -8,7 +8,7 @@ Nav Bar
 .navbar {
   display: flex;
   position: fixed;
-  background-color: #000428bd;
+  background-color: #000428ea;
   width: 100%;
   justify-content: space-between;
   padding: 2px;
@@ -34,12 +34,13 @@ Nav Bar
 
 #orderBtn {
   background-color: rgb(84, 1, 161);
+  padding-left: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   font-size: 10px;
-  display: flex;
-  align-items: center;
-  margin-top: -2px;
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
+  margin-top: -4px;
 }
 
 .logo-image {
@@ -84,25 +85,23 @@ Slider
 /******************************************************************************************************************************
 Why Us
 ************************************************************************************************************************/
-/*.why-us-section {
-  height: 60vh;
-  margin: 50px;
+.why-us-section {
+  margin-top: 30px;
 }
-*/
 
 .featured-grid {
   display: grid;
   grid-template-columns: 50% 50%;
   width: 80%;
   margin: auto;
-  margin-top: 20px
+  margin-top: 20px;
 }
 
 .featured-grid .features {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .why-us-img {
@@ -110,37 +109,210 @@ Why Us
 }
 
 .sub-heading {
-  font-size: 16px;
+  font-size: 20px;
   font-family: sans-serif;
   display: inline;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.why-us-list {
+  margin-top: 10px;
+}
+
+.why-us-list li {
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 5px;
+}
+
+/******************************************************************************************************************************
+About Us
+************************************************************************************************************************/
+
+.about-us-section {
+  margin-top: 30px;
+}
+.featured-grid .features .about-us-note {
+  font-size: 14px;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0 10px;
+  text-align: justify;
+}
+
+/******************************************************************************************************************************
+Services
+************************************************************************************************************************/
+
+.service-section {
+  text-align: center;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.service-img {
+  width: 180px;
+  margin: auto;
+}
+
+.service-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 14px;
+}
+
+/******************************************************************************************************************************
+Contacts
+************************************************************************************************************************/
+
+.contact-section {
+  margin-top: 50px;
+  background-color: #000428;
+  height: 95vh;
+}
+
+.contact-wrapper {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+.contact-title {
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.contact-msg {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
   text-transform: capitalize;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.icon-img {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.contact-grid .features {
+  justify-content: center;
+  color: #ffffff;
+}
+
+.contact-details {
+  font-family: sans-serif;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.contact-req {
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.mail-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+
+.inputs {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.mail-section .msg-enter {
+  height: 100px;
+}
+
+#submit-button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 50%;
+  margin: auto;
+}
+
+/******************************************************************************************************************************
+Social Media
+************************************************************************************************************************/
+
+.social-media-section {
+  width: 100%;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 
-.why-us-list{
-    margin-top: 10px;
+.social-wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
 }
 
-.why-us-list li{
-    font-family: sans-serif;
-    font-size: 14px;
-    padding: 5px;
+.social-icon {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.social-label {
+  font-family: sans-serif;
+  display: flex;
+  font-size: 12px;
+  padding: 10px;
+  color: #ffffff;
 }
 
 
 
-.featured-grid .features .about-us-note{
-    font-size: 14px;
-    font-family: sans-serif;
-    text-align: center;
-    padding: 0 10px;
+
+/******************************************************************************************************************************
+Social Media
+************************************************************************************************************************/
+.footer-wrapper{
+  height: 30px;
+  background-color: #000213e0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.services-grid {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    width: 80%;
-    margin: auto;
-    margin-top: 20px
-  }
+.footer{
+  color: #ffffff;
+  font-size: 12px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
