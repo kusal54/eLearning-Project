@@ -215,7 +215,7 @@ Contacts
 }
 
 .contact-title {
-  width: 30%;
+  width: 80%;
   margin: auto;
   color: #ffffff;
   display: flex;
@@ -229,7 +229,7 @@ Contacts
 .contact-msg {
   text-align: center;
   font-family: sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: capitalize;
   color: #ffffff;
   padding: 20px;
@@ -261,7 +261,6 @@ Contacts
   font-size: 14px;
   text-align: center;
   color: #ffffff;
-  letter-spacing: 1px;
 }
 
 .contact-req {
@@ -398,7 +397,7 @@ Responsive Part
 
   .mobile-grid{
     width: 80%;
-    margin: auto;
+    margin-bottom: 40px;
   }
 
   .service-label{
@@ -416,6 +415,7 @@ Responsive Part
   }
   
   .sv-sections{
+    height: 100%;
     padding: 10px;
   }
 
@@ -528,7 +528,7 @@ Responsive Part
   }
 
   .contact-msg {
-    font-size: 12px;
+    font-size: 14px;
     padding: 0;
   }
 
@@ -555,4 +555,14 @@ Responsive Part
   .about-us-img {
     margin-top: 10px;
   }
+
+  .m-service-img{
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .mail-section {
+    width: 80%;
+}
 }
