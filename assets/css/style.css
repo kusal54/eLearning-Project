@@ -402,6 +402,8 @@ Responsive Part
 
   .service-label{
     text-align: center;
+    margin-bottom: 5px;
+    font-size: 14px;
   }
 
   .service-img {
@@ -412,6 +414,7 @@ Responsive Part
   .service-description{
     text-align: center;
     font-size: 14px;
+    margin: auto
   }
   
   .sv-sections{
@@ -430,7 +433,7 @@ Responsive Part
   }
 
   .service-label {
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
 
   .sub-heading {
@@ -558,7 +561,7 @@ Responsive Part
 
   .m-service-img{
     margin: 0;
-    width: 100%;
+    width: 80%;
     justify-content: center;
   }
 
