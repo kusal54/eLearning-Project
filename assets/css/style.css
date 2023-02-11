@@ -132,7 +132,7 @@ Why Us
 .why-us-list li {
   font-family: sans-serif;
   font-size: 14px;
-  padding: 5px;
+  padding: 2px;
 }
 
 /******************************************************************************************************************************
@@ -267,7 +267,7 @@ Contacts
   margin: auto;
   text-align: center;
   font-family: sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: capitalize;
   margin-top: 30px;
   margin-bottom: 10px;
@@ -451,10 +451,11 @@ Responsive Part
     font-family: sans-serif;
     font-size: 11px;
     color: #ffffff;
+    margin-bottom: 5px;
   }
 
   .contact-req {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .mail-section {
@@ -561,7 +562,7 @@ Responsive Part
 
   .m-service-img{
     margin: 0;
-    width: 80%;
+    width: 100%;
     justify-content: center;
   }
 
