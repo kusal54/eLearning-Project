@@ -360,6 +360,7 @@ Social Media
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
 }
 
 .footer {
@@ -367,6 +368,7 @@ Social Media
   font-size: 12px;
   font-family: sans-serif;
   text-transform: capitalize;
+  margin: auto;
 }
 
 /******************************************************************************************************************************
@@ -389,6 +391,10 @@ Responsive Part
 }
 
 @media (max-width: 768px) {
+
+  .slogan{
+    height: 50vh;
+  }
 
   .mobile-grid{
     width: 80%;
