@@ -1,193 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Yash Enterprises</title>
-  </head>
 
-  <body>
-    <!-------------------------------------------------------------------------------------------------------------------------------
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css" />
+  <script src="assets/js/jquery.min.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Yash Enterprises</title>
+</head>
+
+<body>
+  <!-------------------------------------------------------------------------------------------------------------------------------
         Nav Bar Section
     -------------------------------------------------------------------------------------------------------------------------------->
-    <header>
-      <nav class="navbar" id="desktopNavBar">
-        <img class="logo-image" src="assets/img/logo.jpg" />
-        <ul class="menu">
-          <li><a href="#"> Home</a></li>
-          <li><a href="#">Our Services</a></li>
-          <li><a href="#">Why Us</a></li>
-          <li><a href="#">Product Gallery</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li id="orderBtn"><a href="#">Place an Order</a></li>
-        </ul>
-      </nav>
-    </header>
+  <header>
 
-    <!-------------------------------------------------------------------------------------------------------------------------------
+    
+    <nav class="navbar" id="desktopNavBar">
+      <img class="logo-image" src="assets/img/logo.jpg" />
+   <ul class="menu-Desktop">
+        <li><a href="#"> Home</a></li>
+        <li><a href="#">Our Services</a></li>
+        <li><a href="#">Why Us</a></li>
+        <li><a href="#">Product Gallery</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li id="orderBtn"><a href="#">Place an Order</a></li>
+      </ul>
+      <button class="mob-ham">
+      
+    </button>
+    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle mob-ham" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <i class="fa-solid fa-bars ham-icon"></i>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Home</a></li>
+    <li><a class="dropdown-item" href="#">Our Services</a></li>
+    <li><a class="dropdown-item" href="#">Whys Us</a></li>
+    <li><a class="dropdown-item" href="#">Product Gallery</a></li>
+    <li><a class="dropdown-item" href="#">Contact Us</a></li>
+    <li><a class="dropdown-item" href="#">Place An Order</a></li>
+
+
+  </ul>
+</div>
+  </nav>
+  </header>
+
+  <!-------------------------------------------------------------------------------------------------------------------------------
         Slider
     -------------------------------------------------------------------------------------------------------------------------------->
-    <div id="slider">
-      <div class="slogan">
-        <h1>We keep the environment clean!</h1>
-      </div>
+  <div id="slider">
+    <div class="slogan">
+      <h1>We keep the environment clean!</h1>
     </div>
-    <!-------------------------------------------------------------------------------------------------------------------------------
+  </div>
+  <!-------------------------------------------------------------------------------------------------------------------------------
        Why Us Section
     -------------------------------------------------------------------------------------------------------------------------------->
-    <div class="why-us-section-pc">
-      <div class="featured-grid">
-        <div class="features">      
-          <img class="why-us-img" src="assets/img/why-us.jpg" />
-        </div>
-        <div class="features">
-          <h3 class="sub-heading">Why you should choose <br>yash carbon?</h3>
-            <ul class="why-us-list">
-                <li>Customized solutions for budgets and needs.</li>
-                <li>Dedicated service.</li>
-                <li>High quality products.</li>
-                <li>Competitive pricing.</li>
-                <li>Delivery on time</li>
-            </ul>
-        </div>
+  <div class="why-us-section-pc">
+    <div class="featured-grid">
+      <div class="features">
+        <img class="why-us-img" src="assets/img/why-us.jpg" />
       </div>
-    </div>
-
-    <div class="why-us-section-mobile">
-      <div class="featured-grid">
+      <div class="features">
         <h3 class="sub-heading">Why you should choose <br>yash carbon?</h3>
-        <div class="features">      
-          <img class="why-us-img" src="assets/img/why-us.jpg" />
-        </div>
-        <div class="features">
-          
-            <ul class="why-us-list">
-                <li>Customized solutions for budgets and needs.</li>
-                <li>Dedicated service.</li>
-                <li>High quality products.</li>
-                <li>Competitive pricing.</li>
-                <li>Delivery on time</li>
-            </ul>
-        </div>
+        <ul class="why-us-list">
+          <li>Customized solutions for budgets and needs.</li>
+          <li>Dedicated service.</li>
+          <li>High quality products.</li>
+          <li>Competitive pricing.</li>
+          <li>Delivery on time</li>
+        </ul>
       </div>
     </div>
+  </div>
 
-    <!-------------------------------------------------------------------------------------------------------------------------------
+  <div class="why-us-section-mobile">
+    <div class="featured-grid">
+      <h3 class="sub-heading">Why you should choose <br>yash carbon?</h3>
+      <div class="features">
+        <img class="why-us-img" src="assets/img/why-us.jpg" />
+      </div>
+      <div class="features">
+
+        <ul class="why-us-list">
+          <li>Customized solutions for budgets and needs.</li>
+          <li>Dedicated service.</li>
+          <li>High quality products.</li>
+          <li>Competitive pricing.</li>
+          <li>Delivery on time</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-------------------------------------------------------------------------------------------------------------------------------
        About Us Section
     -------------------------------------------------------------------------------------------------------------------------------->
 
-    <div class="about-us-section-pc">
-        <div class="featured-grid">
+  <div class="about-us-section-pc">
+    <div class="featured-grid">
 
-          <div class="features">
-            <h3 class="sub-heading">About Us</h3>
-              <p class="about-us-note">As a leader in the industry, Yash Enterprises has a wealth of knowledge and expertise that’s incomparable.​<br><br>
-              Our products are created with the highest quality materials and assembled with the most advanced techniques available. From idealization through execution, we are proud of everything we products here.<br><br>
-                We’re sure you’ll be satisfied with our products just like all of our past customers.
-                Check out all the selections below.</p>
-            </div>
-          <div class="features">      
-            <img class="about-us-img" src="assets/img/about-us.jpg" />
-          </div>
-      </div>
-</div>
-
-
-<div class="about-us-section-mobile">
-  <div class="featured-grid">
-    <h3 class="sub-heading">About Us</h3>
-    <div class="features">      
-      <img class="about-us-img" src="assets/img/about-us.jpg" />
-    </div>
-    <div class="features">
-      
-        <p class="about-us-note">As a leader in the industry, Yash Enterprises has a wealth of knowledge and expertise that’s incomparable.​<br><br>
-        Our products are created with the highest quality materials and assembled with the most advanced techniques available. From idealization through execution, we are proud of everything we products here.<br><br>
+      <div class="features">
+        <h3 class="sub-heading">About Us</h3>
+        <p class="about-us-note">As a leader in the industry, Yash Enterprises has a wealth of knowledge and expertise
+          that’s incomparable.​<br><br>
+          Our products are created with the highest quality materials and assembled with the most advanced techniques
+          available. From idealization through execution, we are proud of everything we products here.<br><br>
           We’re sure you’ll be satisfied with our products just like all of our past customers.
           Check out all the selections below.</p>
       </div>
-    
-</div>
-</div>
+      <div class="features">
+        <img class="about-us-img" src="assets/img/about-us.jpg" />
+      </div>
+    </div>
+  </div>
 
 
-    <!-------------------------------------------------------------------------------------------------------------------------------
+  <div class="about-us-section-mobile">
+    <div class="featured-grid">
+      <h3 class="sub-heading">About Us</h3>
+      <div class="features">
+        <img class="about-us-img" src="assets/img/about-us.jpg" />
+      </div>
+      <div class="features">
+
+        <p class="about-us-note">As a leader in the industry, Yash Enterprises has a wealth of knowledge and expertise
+          that’s incomparable.​<br><br>
+          Our products are created with the highest quality materials and assembled with the most advanced techniques
+          available. From idealization through execution, we are proud of everything we products here.<br><br>
+          We’re sure you’ll be satisfied with our products just like all of our past customers.
+          Check out all the selections below.</p>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-------------------------------------------------------------------------------------------------------------------------------
        Our Services
     -------------------------------------------------------------------------------------------------------------------------------->
 
-    <div class="service-section-pc">
-        <h3 class="sub-heading service-title">Our Services</h3>
+  <div class="service-section-pc">
+    <h3 class="sub-heading service-title">Our Services</h3>
 
-        <div class="services-grid">
-          <div class="features">
-            <img class="service-img" src="assets/img/pellets.png">
-            <label class="service-label">Activated Charcoal Pellets</label>
-          </div>
-
-          <div class="features">      
-            <img class="service-img" src="assets/img/bbq.png">
-            <label class="service-label">Charcoal For BBQ</label>
-          </div>
-
-          <div class="features">      
-            <img class="service-img" src="assets/img/airfresh.png">
-            <label class="service-label">Refrigerator Air Freshener</label>
-          </div>
+    <div class="services-grid">
+      <div class="features">
+        <img class="service-img" src="assets/img/pellets.png">
+        <label class="service-label">Activated Charcoal Pellets</label>
       </div>
-     </div>
+
+      <div class="features">
+        <img class="service-img" src="assets/img/bbq.png">
+        <label class="service-label">Charcoal For BBQ</label>
+      </div>
+
+      <div class="features">
+        <img class="service-img" src="assets/img/airfresh.png">
+        <label class="service-label">Refrigerator Air Freshener</label>
+      </div>
+    </div>
+  </div>
 
 
-    <div class="service-section-mobile">
-      <h3 class="sub-heading service-title">Our Services</h3>
+  <div class="service-section-mobile">
+    <h3 class="sub-heading service-title">Our Services</h3>
 
-      <div class="container mobile-grid">
-        <div class="row sv-sections">
-          <div class="col-4">
-            <img class="m-service-img" src="assets/img/pellets.png">
-          </div>
-          <div class="col-8">
-            <label class="service-label">Activated Charcoal Pellets</label>
-            <p class="service-description">We manufacture active carbon charcoal pellets in sizes of 3mm, 4mm, 5mm, 6mm, 7mm and 8mm . They are used for industrial purposes.</p>
-          </div>
+    <div class="container mobile-grid">
+      <div class="row sv-sections">
+        <div class="col-4">
+          <img class="m-service-img" src="assets/img/pellets.png">
         </div>
-
-        <div class="row sv-sections">
-          <div class="col-4">
-            <img class="m-service-img" src="assets/img/bbq.png">
-          </div>
-          <div class="col-8">
-            <label class="service-label">Charcoal for BBQ</label>
-            <p class="service-description">We manufacture best quality BBQ charcoal products.</p>
-          </div>
-        </div>
-
-        <div class="row sv-sections">
-          <div class="col-4">
-            <img class="m-service-img" src="assets/img/airfresh.png">
-          </div>
-          <div class="col-8">
-            <label class="service-label">Refrigerator Air Freshener</label>
-            <p class="service-description">We manufacture refrigerator air fresheners with Active Carbon.
-            </p>
-          </div>
+        <div class="col-8">
+          <label class="service-label">Activated Charcoal Pellets</label>
+          <p class="service-description">We manufacture active carbon charcoal pellets in sizes of 3mm, 4mm, 5mm, 6mm,
+            7mm and 8mm . They are used for industrial purposes.</p>
         </div>
       </div>
-      
+
+      <div class="row sv-sections">
+        <div class="col-4">
+          <img class="m-service-img" src="assets/img/bbq.png">
+        </div>
+        <div class="col-8">
+          <label class="service-label">Charcoal for BBQ</label>
+          <p class="service-description">We manufacture best quality BBQ charcoal products.</p>
+        </div>
+      </div>
+
+      <div class="row sv-sections">
+        <div class="col-4">
+          <img class="m-service-img" src="assets/img/airfresh.png">
+        </div>
+        <div class="col-8">
+          <label class="service-label">Refrigerator Air Freshener</label>
+          <p class="service-description">We manufacture refrigerator air fresheners with Active Carbon.
+          </p>
+        </div>
+      </div>
     </div>
 
-      <!-------------------------------------------------------------------------------------------------------------------------------
+  </div>
+
+  <!-------------------------------------------------------------------------------------------------------------------------------
        Contact
     -------------------------------------------------------------------------------------------------------------------------------->
-    <div class="contact-section">
-      <div class="contact-wrapper">
-        <h3 class="sub-heading contact-title">Contact Us</h3>
+  <div class="contact-section">
+    <div class="contact-wrapper">
+      <h3 class="sub-heading contact-title">Contact Us</h3>
       <h4 class="contact-msg">Get in touch with us !</h4>
 
       <div class="contact-grid">
@@ -196,31 +221,31 @@
           <p class="contact-details">+94 35 2283 ###<br>+94 76 5345 ###</p>
 
         </div>
-        <div class="features">      
+        <div class="features">
           <i class="fa-solid fa-location-dot icon-img"></i>
           <p class="contact-details">D71/#, Morawaka, Nelundeniya,<br>Sri Lanka</p>
         </div>
 
-        <div class="features">      
+        <div class="features">
           <i class="fa-regular fa-envelope icon-img"></i>
           <p class="contact-details">yashenterpriseslk@gmail.com</p>
         </div>
-    </div>
-
-    <h3 class="contact-req">If you have any inquiry, do not hesitate to send us a message</h4>
-
-      <div class="mail-section">
-
-        <input type="text" class="name-enter inputs" placeholder="Your Name">
-        <input type="email" class="email-enter inputs" placeholder="Your Email Address">
-        <input type="text" class="sub-enter inputs" placeholder="Subject">
-        <input type="text" class="msg-enter inputs" placeholder="Message">
-        <button id="submit-button">SEND MESSAGE</button>
       </div>
+
+      <h3 class="contact-req">If you have any inquiry, do not hesitate to send us a message</h4>
+
+        <div class="mail-section">
+
+          <input type="text" class="name-enter inputs" placeholder="Your Name">
+          <input type="email" class="email-enter inputs" placeholder="Your Email Address">
+          <input type="text" class="sub-enter inputs" placeholder="Subject">
+          <input type="text" class="msg-enter inputs" placeholder="Message">
+          <button id="submit-button">SEND MESSAGE</button>
+        </div>
     </div>
 
 
-        <!-------------------------------------------------------------------------------------------------------------------------------
+    <!-------------------------------------------------------------------------------------------------------------------------------
        Social Media
     -------------------------------------------------------------------------------------------------------------------------------->
     <div class="social-media-section">
@@ -229,30 +254,38 @@
 
       <div class="social-wrapper">
         <div class="social-icon">
-        <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-facebook"></i>
         </div>
         <div class="social-icon">
-        <i class="fa-brands fa-youtube social-icon"></i>
+          <i class="fa-brands fa-youtube social-icon"></i>
         </div>
         <div class="social-icon">
-        <i class="fa-brands fa-instagram social-icon"></i>
+          <i class="fa-brands fa-instagram social-icon"></i>
         </div>
         <div class="social-icon">
-        <i class="fa-brands fa-twitter social-icon"></i>
+          <i class="fa-brands fa-twitter social-icon"></i>
         </div>
       </div>
+    </div>
   </div>
-</div>
-</div>
+  </div>
 
-<!-------------------------------------------------------------------------------------------------------------------------------
+  <!-------------------------------------------------------------------------------------------------------------------------------
        Footer
     -------------------------------------------------------------------------------------------------------------------------------->
-<div class="footer-wrapper">
-  <p class="footer"> all rights reserved by yash enterprises</p>
+  <div class="footer-wrapper">
+    <p class="footer"> all rights reserved by yash enterprises</p>
 
-</div>
+  </div>
 
 
-  </body>
+
+  <script type="text/javascript">
+
+
+
+  </script>
+
+</body>
+
 </html>

@@ -6,6 +6,24 @@ body {
 /******************************************************************************************************************************
 Nav Bar
 ************************************************************************************************************************/
+#mobileNavBar {
+  display: none;
+}
+
+.mob-ham{
+  display: none;
+  background-color: transparent;
+  border: none;
+  margin-right: 50px;
+  padding: 5px;
+}
+
+.ham-icon{
+  color: #ffffff;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
 .navbar {
   display: flex;
   position: fixed;
@@ -16,14 +34,14 @@ Nav Bar
   align-items: center;
 }
 
-.menu {
+.menu-Desktop {
   display: flex;
   list-style-type: none;
   margin-right: 10%;
   margin-bottom: 0;
 }
 
-.menu a {
+.menu-Desktop a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 11px;
@@ -31,6 +49,24 @@ Nav Bar
   margin-right: 12px;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+.menu-Mobile {
+  display: inline;
+  list-style-type: none;
+  margin-right: 10%;
+  margin-bottom: 10px;
+}
+
+.menu-Mobile {
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  margin-right: 12px;
+  text-transform: uppercase;
+}
+
+.menu-MobileBtn{
+  background-color: transparent;
 }
 
 #orderBtn {
@@ -82,11 +118,32 @@ Slider
   text-transform: capitalize;
 }
 
+#mobileNavBar {
+  background-color: #000428;
+  height: 30vh;
+  width: 80%;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.mobile-menu{
+  margin: auto;
+}
+
+.mobile-menu li{
+  text-decoration: none;
+}
+
+.logo-image-m{
+  width: 100px;
+}
+
 /******************************************************************************************************************************
 Why Us
 ************************************************************************************************************************/
 .why-us-section-pc {
-  width: 100%;
+  width: 90%;
   margin-top: 30px;
 }
 
@@ -286,6 +343,7 @@ Contacts
   padding: 5px 10px;
   margin-bottom: 10px;
   border-radius: 5px;
+  font-size: 12px;
 }
 
 .mail-section .msg-enter {
@@ -370,14 +428,29 @@ Social Media
   margin: auto;
 }
 
+
 /******************************************************************************************************************************
 Responsive Part
 ************************************************************************************************************************/
 
-@media (max-width: 900px) {
-  #desktopNavBar {
+
+
+
+
+@media (max-width: 768px) {
+
+  .mob-ham{
+    display: block;
+  }
+
+  .menu-Desktop {
     display: none;
   }
+
+ .menu-Mobile {
+    display: block;
+  }
+
   .slogan {
     height: 50vh;
   }
@@ -387,20 +460,13 @@ Responsive Part
     font-weight: bold;
     margin-top: 25vh;
   }
-}
 
-@media (max-width: 768px) {
-
-  .slogan{
-    height: 50vh;
-  }
-
-  .mobile-grid{
+  .mobile-grid {
     width: 80%;
     margin-bottom: 40px;
   }
 
-  .service-label{
+  .service-label {
     text-align: center;
     margin-bottom: 5px;
     font-size: 14px;
@@ -411,13 +477,13 @@ Responsive Part
     margin: auto;
   }
 
-  .service-description{
+  .service-description {
     text-align: center;
     font-size: 14px;
     margin: auto
   }
-  
-  .sv-sections{
+
+  .sv-sections {
     height: 100%;
     padding: 10px;
   }
@@ -465,6 +531,7 @@ Responsive Part
   .inputs {
     padding: 2px 10px;
     margin-bottom: 5px;
+    font-size: 14px;
   }
 
   .mail-section .msg-enter {
@@ -490,7 +557,7 @@ Responsive Part
   .about-us-section-pc {
     display: none;
   }
- 
+
   .why-us-section-mobile {
     display: block;
   }
@@ -552,15 +619,15 @@ Responsive Part
     display: block;
   }
 
-  .featured-grid .features .about-us-note{
+  .featured-grid .features .about-us-note {
     margin-top: 15px;
   }
-  
+
   .about-us-img {
     margin-top: 10px;
   }
 
-  .m-service-img{
+  .m-service-img {
     margin: 0;
     width: 100%;
     justify-content: center;
@@ -568,34 +635,35 @@ Responsive Part
 
   .mail-section {
     width: 80%;
-}
+  }
 
-.social-wrapper {
-  width: 50%;
-}
+  .social-wrapper {
+    width: 50%;
+  }
 
-.social-icon {
-  font-size: 20px;
-  color: #ffffff;
-  margin: auto;
-}
+  .social-icon {
+    font-size: 20px;
+    color: #ffffff;
+    margin: auto;
+  }
 
-.fa-facebook:hover {
-  font-size: 25px;
-}
+  .fa-facebook:hover {
+    font-size: 25px;
+  }
 
-.fa-youtube:hover {
-  font-size: 25px;
-}
+  .fa-youtube:hover {
+    font-size: 25px;
+  }
 
-.fa-instagram:hover {
-  font-size: 25px;
-}
+  .fa-instagram:hover {
+    font-size: 25px;
+  }
 
-.fa-twitter:hover {
-  font-size: 25px;
-}
-.social-media-section {
-  margin-top: 60px;
-}
+  .fa-twitter:hover {
+    font-size: 25px;
+  }
+
+  .social-media-section {
+    margin-top: 60px;
+  }
 }
