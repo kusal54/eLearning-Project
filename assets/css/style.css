@@ -32,6 +32,8 @@ Nav Bar
   justify-content: space-between;
   padding: 2px;
   align-items: center;
+  position: fixed;
+  top: 0;
 }
 
 .menu-Desktop {
@@ -368,11 +370,12 @@ Button:hover {
 
 #alertM{
   width: 60%;
-  display: flex;
+  margin: auto;
+  display: none;
   justify-content: center;
   align-items: center;
   background-color: rgb(179, 230, 213);
-  margin: auto;
+  
 }
 
 /******************************************************************************************************************************
@@ -421,7 +424,7 @@ Social Media
 Social Media
 ************************************************************************************************************************/
 .footer-wrapper {
-  height: 30px;
+  height: 40px;
   background-color: #000213e0;
   width: 100%;
   display: flex;
