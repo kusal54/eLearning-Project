@@ -19,36 +19,35 @@
     -------------------------------------------------------------------------------------------------------------------------------->
   <header>
 
-    
+
     <nav class="navbar" id="desktopNavBar">
       <img class="logo-image" src="assets/img/logo.jpg" />
-   <ul class="menu-Desktop">
-        <li><a href="#"> Home</a></li>
-        <li><a href="#">Our Services</a></li>
-        <li><a href="#">Why Us</a></li>
-        <li><a href="#">Product Gallery</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li id="orderBtn"><a href="#">Place an Order</a></li>
+      <ul class="menu-Desktop">
+        <li><a href="index.html"> Home</a></li>
+        <li><a href="servises.html">Our Services</a></li>
+        <li><a href="whyus.html">Why Us</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li id="orderBtn"><a href="https://www.ebay.com">Place an Order</a></li>
       </ul>
-      <button class="mob-ham">
-      
-    </button>
-    <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle mob-ham" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-    <i class="fa-solid fa-bars ham-icon"></i>
-  </button>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Home</a></li>
-    <li><a class="dropdown-item" href="#">Our Services</a></li>
-    <li><a class="dropdown-item" href="#">Whys Us</a></li>
-    <li><a class="dropdown-item" href="#">Product Gallery</a></li>
-    <li><a class="dropdown-item" href="#">Contact Us</a></li>
-    <li><a class="dropdown-item" href="#">Place An Order</a></li>
+
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle mob-ham" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <i class="fa-solid fa-bars ham-icon"></i>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="index.html">Home</a></li>
+          <li><a class="dropdown-item" href="services.html">Our Services</a></li>
+          <li><a class="dropdown-item" href="whyus.html">Whys Us</a></li>
+          <li><a class="dropdown-item" href="about.html">About Us</a></li>
+          <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+          <li><a class="dropdown-item" href="https://www.ebay.com">Place An Order</a></li>
 
 
-  </ul>
-</div>
-  </nav>
+        </ul>
+      </div>
+    </nav>
   </header>
 
   <!-------------------------------------------------------------------------------------------------------------------------------
@@ -240,10 +239,13 @@
           <input type="email" class="email-enter inputs" placeholder="Your Email Address">
           <input type="text" class="sub-enter inputs" placeholder="Subject">
           <input type="text" class="msg-enter inputs" placeholder="Message">
-          <button id="submit-button">SEND MESSAGE</button>
+          <button id="submitButton" class="submitBtn">SEND MESSAGE</button>
         </div>
     </div>
 
+    <button id="alertM" class="alert alert-success" role="alert">
+      Your request has been submitted!
+    </button>
 
     <!-------------------------------------------------------------------------------------------------------------------------------
        Social Media
@@ -280,7 +282,8 @@
 
 
 
-  <script type="text/javascript">
+  <script type="text/javascript" src="/assets/js/script.js">
+
 
 
 

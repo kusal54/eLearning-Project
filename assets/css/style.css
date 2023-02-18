@@ -350,19 +350,29 @@ Contacts
   height: 60px;
 }
 
-#submit-button {
+#submitButton {
   padding: 5px 10px;
-  margin-top: 10px;
+  margin-top: 5px;
   width: 100%;
-  margin: auto;
   color: #ffffff;
-  background-color: #000428;
+  background-color: #7300df;
   border: 3px #5401a1 solid;
+  margin-bottom: 20px;
 }
-
-#submit-button:hover {
+Button:hover {
   color: #ffffff;
   background-color: #5401a1;
+}
+
+
+
+#alertM{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(179, 230, 213);
+  margin: auto;
 }
 
 /******************************************************************************************************************************
